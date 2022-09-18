@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 10.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Pacific Time
+BEGIN:STANDARD
+DTSTART:20201101T020000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:Standard Time
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20200301T020000
+RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:Daylight Savings Time
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="%AttendeeName%";ROLE=REQ-PARTICIPANT;RSVP=TRUE:MAILTO:kth95807@gmail.com
+ORGANIZER;CN="Simplilearn Webinars":MAILTO:webinars@simplilearn.in
+DTSTART;TZID="Pacific Time":20220920T083000
+DTEND;TZID="Pacific Time":20220920T093000
+LOCATION:https://simplilearnsolutions.webex.com/simplilearnsolutions/onstage/g.php?MTID=ee8a35c47bdb0dc014f3a776f5a86d0ae 
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:WEBEX-MEETING CENTER-6.01240102-1608123562
+DTSTAMP:20220917T152311Z
+DESCRIPTION:Hello %AttendeeName%,\n\nYour registration was approved for the following Simplilearn webinar.\n\nTopic: PROGRAM PREVIEW: A Live Look at the Post Graduate Program in Cyber Security\nHost: Stuart at Simplilearn\nDate and Time:\nSeptember 20, 2022 9:00 pm, India Time (Mumbai, GMT+05:30)\nSeptember 20, 2022 8:30 am, Pacific Daylight Time (San Francisco, GMT-07:00)\nSeptember 20, 2022 11:30 am, Eastern Daylight Time (New York, GMT-04:00)\nSeptember 20, 2022 7:30 pm, Arabian Time (Abu Dhabi, Muscat, GMT+04:00)\n\nEvent number: 251 757 28693\nRegistration ID: This event does not require a registration ID\n\nEvent password: 1234\n\n-------------------------------------------------------\nTo join the online event\n-------------------------------------------------------\nGo to https://simplilearnsolutions.webex.com/simplilearnsolutions/onstage/g.php?MTID=ee8a35c47bdb0dc014f3a776f5a86d0ae \n\nTo view in other time zones or languages, please click the link:\n\nhttps://simplilearnsolutions.webex.com/simplilearnsolutions/onstage/g.php?MTID=ea445f969ef40d0d804f50086b617ac24\n\n-------------------------------------------------------\nTo join the teleconference only\n-------------------------------------------------------\nSingapore Toll: +65-315-76442\nGlobal call-in numbers: https://simplilearnsolutions.webex.com/simplilearnsolutions/globalcallin.php?serviceType=EC&ED=1608123562&tollFree=1\nToll-free calling restrictionshttps://www.webex.com/pdf/tollfree_restrictions.pdf\nAccess code: 251 757 28693\n\n-------------------------------------------------------\nFor assistance\n-------------------------------------------------------\nYou can contact Stuart at Simplilearn at:\nstuart.creque@simplilearn.net\n\nCan't join the event?\nhttps://help.webex.com/?docs/DOC-5441\n\nTo join the event more quickly, you can set up the software that you need to join the event before the event starts. Go to the URL above, then click Set Up.\n\n\n\nhttps://www.simplilearn.com/\n\nIMPORTANT NOTICE: This WebEx service includes a feature that allows audio and any documents and other materials exchanged or viewed during the session to be recorded. By joining this session, you automatically consent to such recordings. If you do not consent to the recording, do not join the session.\n
+SUMMARY:PROGRAM PREVIEW: A Live Look at the Post Graduate Program in Cyber Security
+PRIORITY:5
+CLASS:PUBLIC
+END:VEVENT
+END:VCALENDAR
